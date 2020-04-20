@@ -1,0 +1,642 @@
+
+(base) C:\Users\orchestrate>cd C:\workspace\rasa
+
+(base) C:\workspace\rasa>conda create --name installingrasa python==3.7.6
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.8.2
+  latest version: 4.8.3
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\orchestrate\anaconda3\envs\installingrasa
+
+  added / updated specs:
+    - python==3.7.6
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2020.4.5.1         |           py37_0         156 KB
+    openssl-1.1.1f             |       he774522_0         4.8 MB
+    setuptools-46.1.3          |           py37_0         528 KB
+    ------------------------------------------------------------
+                                           Total:         5.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-2020.1.1-0
+  certifi            pkgs/main/win-64::certifi-2020.4.5.1-py37_0
+  openssl            pkgs/main/win-64::openssl-1.1.1f-he774522_0
+  pip                pkgs/main/win-64::pip-20.0.2-py37_1
+  python             pkgs/main/win-64::python-3.7.6-h60c2a47_2
+  setuptools         pkgs/main/win-64::setuptools-46.1.3-py37_0
+  sqlite             pkgs/main/win-64::sqlite-3.31.1-he774522_0
+  vc                 pkgs/main/win-64::vc-14.1-h0510ff6_4
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.16.27012-hf0eaf9b_1
+  wheel              pkgs/main/win-64::wheel-0.34.2-py37_0
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py37_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+openssl-1.1.1f       | 4.8 MB    | ############################################################################ | 100%
+setuptools-46.1.3    | 528 KB    | ############################################################################ | 100%
+certifi-2020.4.5.1   | 156 KB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate installingrasa
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+(base) C:\workspace\rasa>conda activate installingrasa
+
+(installingrasa) C:\workspace\rasa>conda install ujson
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.8.2
+  latest version: 4.8.3
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\orchestrate\anaconda3\envs\installingrasa
+
+  added / updated specs:
+    - ujson
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ujson-2.0.3                |   py37ha925a31_0          46 KB
+    ------------------------------------------------------------
+                                           Total:          46 KB
+
+The following NEW packages will be INSTALLED:
+
+  ujson              pkgs/main/win-64::ujson-2.0.3-py37ha925a31_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+ujson-2.0.3          | 46 KB     | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(installingrasa) C:\workspace\rasa>conda install tensorflow
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.8.2
+  latest version: 4.8.3
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\orchestrate\anaconda3\envs\installingrasa
+
+  added / updated specs:
+    - tensorflow
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _tflow_select-2.2.0        |            eigen           3 KB
+    absl-py-0.9.0              |           py37_0         168 KB
+    astor-0.8.0                |           py37_0          47 KB
+    blinker-1.4                |           py37_0          22 KB
+    cachetools-3.1.1           |             py_0          14 KB
+    click-7.1.1                |             py_0          71 KB
+    gast-0.2.2                 |           py37_0         155 KB
+    google-auth-1.13.1         |             py_0          57 KB
+    google-auth-oauthlib-0.4.1 |             py_2          20 KB
+    google-pasta-0.2.0         |             py_0          44 KB
+    grpcio-1.27.2              |   py37h351948d_0         1.2 MB
+    idna-2.9                   |             py_1          49 KB
+    keras-applications-1.0.8   |             py_0          33 KB
+    keras-preprocessing-1.1.0  |             py_1          36 KB
+    libprotobuf-3.11.4         |       h7bd577a_0         1.8 MB
+    markdown-3.1.1             |           py37_0         132 KB
+    oauthlib-3.1.0             |             py_0          88 KB
+    opt_einsum-3.1.0           |             py_0          54 KB
+    protobuf-3.11.4            |   py37h33f27b4_0         542 KB
+    pyasn1-0.4.8               |             py_0          58 KB
+    pyasn1-modules-0.2.7       |             py_0          63 KB
+    pycparser-2.20             |             py_0          92 KB
+    pyjwt-1.7.1                |           py37_0          49 KB
+    requests-2.23.0            |           py37_0          93 KB
+    requests-oauthlib-1.3.0    |             py_0          22 KB
+    rsa-4.0                    |             py_0          29 KB
+    tensorboard-2.1.0          |            py3_0         3.3 MB
+    tensorflow-2.1.0           |eigen_py37hd727fc0_0           4 KB
+    tensorflow-base-2.1.0      |eigen_py37h49b2757_0        35.4 MB
+    tensorflow-estimator-2.1.0 |     pyhd54b08b_0         251 KB
+    termcolor-1.1.0            |           py37_1           8 KB
+    werkzeug-0.14.1            |           py37_0         394 KB
+    wrapt-1.12.1               |   py37he774522_1          49 KB
+    ------------------------------------------------------------
+                                           Total:        44.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  _tflow_select      pkgs/main/win-64::_tflow_select-2.2.0-eigen
+  absl-py            pkgs/main/win-64::absl-py-0.9.0-py37_0
+  asn1crypto         pkgs/main/win-64::asn1crypto-1.3.0-py37_0
+  astor              pkgs/main/win-64::astor-0.8.0-py37_0
+  blas               pkgs/main/win-64::blas-1.0-mkl
+  blinker            pkgs/main/win-64::blinker-1.4-py37_0
+  cachetools         pkgs/main/noarch::cachetools-3.1.1-py_0
+  cffi               pkgs/main/win-64::cffi-1.14.0-py37h7a1dbc1_0
+  chardet            pkgs/main/win-64::chardet-3.0.4-py37_1003
+  click              pkgs/main/noarch::click-7.1.1-py_0
+  cryptography       pkgs/main/win-64::cryptography-2.8-py37h7a1dbc1_0
+  gast               pkgs/main/win-64::gast-0.2.2-py37_0
+  google-auth        pkgs/main/noarch::google-auth-1.13.1-py_0
+  google-auth-oauth~ pkgs/main/noarch::google-auth-oauthlib-0.4.1-py_2
+  google-pasta       pkgs/main/noarch::google-pasta-0.2.0-py_0
+  grpcio             pkgs/main/win-64::grpcio-1.27.2-py37h351948d_0
+  h5py               pkgs/main/win-64::h5py-2.10.0-py37h5e291fa_0
+  hdf5               pkgs/main/win-64::hdf5-1.10.4-h7ebc959_0
+  icc_rt             pkgs/main/win-64::icc_rt-2019.0.0-h0cc432a_1
+  idna               pkgs/main/noarch::idna-2.9-py_1
+  intel-openmp       pkgs/main/win-64::intel-openmp-2020.0-166
+  keras-applications pkgs/main/noarch::keras-applications-1.0.8-py_0
+  keras-preprocessi~ pkgs/main/noarch::keras-preprocessing-1.1.0-py_1
+  libprotobuf        pkgs/main/win-64::libprotobuf-3.11.4-h7bd577a_0
+  markdown           pkgs/main/win-64::markdown-3.1.1-py37_0
+  mkl                pkgs/main/win-64::mkl-2020.0-166
+  mkl-service        pkgs/main/win-64::mkl-service-2.3.0-py37hb782905_0
+  mkl_fft            pkgs/main/win-64::mkl_fft-1.0.15-py37h14836fe_0
+  mkl_random         pkgs/main/win-64::mkl_random-1.1.0-py37h675688f_0
+  numpy              pkgs/main/win-64::numpy-1.18.1-py37h93ca92e_0
+  numpy-base         pkgs/main/win-64::numpy-base-1.18.1-py37hc3f5095_1
+  oauthlib           pkgs/main/noarch::oauthlib-3.1.0-py_0
+  opt_einsum         pkgs/main/noarch::opt_einsum-3.1.0-py_0
+  protobuf           pkgs/main/win-64::protobuf-3.11.4-py37h33f27b4_0
+  pyasn1             pkgs/main/noarch::pyasn1-0.4.8-py_0
+  pyasn1-modules     pkgs/main/noarch::pyasn1-modules-0.2.7-py_0
+  pycparser          pkgs/main/noarch::pycparser-2.20-py_0
+  pyjwt              pkgs/main/win-64::pyjwt-1.7.1-py37_0
+  pyopenssl          pkgs/main/win-64::pyopenssl-19.1.0-py37_0
+  pyreadline         pkgs/main/win-64::pyreadline-2.1-py37_1
+  pysocks            pkgs/main/win-64::pysocks-1.7.1-py37_0
+  requests           pkgs/main/win-64::requests-2.23.0-py37_0
+  requests-oauthlib  pkgs/main/noarch::requests-oauthlib-1.3.0-py_0
+  rsa                pkgs/main/noarch::rsa-4.0-py_0
+  scipy              pkgs/main/win-64::scipy-1.4.1-py37h9439919_0
+  six                pkgs/main/win-64::six-1.14.0-py37_0
+  tensorboard        pkgs/main/noarch::tensorboard-2.1.0-py3_0
+  tensorflow         pkgs/main/win-64::tensorflow-2.1.0-eigen_py37hd727fc0_0
+  tensorflow-base    pkgs/main/win-64::tensorflow-base-2.1.0-eigen_py37h49b2757_0
+  tensorflow-estima~ pkgs/main/noarch::tensorflow-estimator-2.1.0-pyhd54b08b_0
+  termcolor          pkgs/main/win-64::termcolor-1.1.0-py37_1
+  urllib3            pkgs/main/win-64::urllib3-1.25.8-py37_0
+  werkzeug           pkgs/main/win-64::werkzeug-0.14.1-py37_0
+  win_inet_pton      pkgs/main/win-64::win_inet_pton-1.1.0-py37_0
+  wrapt              pkgs/main/win-64::wrapt-1.12.1-py37he774522_1
+  zlib               pkgs/main/win-64::zlib-1.2.11-h62dcd97_3
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+click-7.1.1          | 71 KB     | ############################################################################ | 100%
+google-auth-1.13.1   | 57 KB     | ############################################################################ | 100%
+pyjwt-1.7.1          | 49 KB     | ############################################################################ | 100%
+rsa-4.0              | 29 KB     | ############################################################################ | 100%
+gast-0.2.2           | 155 KB    | ############################################################################ | 100%
+pycparser-2.20       | 92 KB     | ############################################################################ | 100%
+cachetools-3.1.1     | 14 KB     | ############################################################################ | 100%
+requests-oauthlib-1. | 22 KB     | ############################################################################ | 100%
+termcolor-1.1.0      | 8 KB      | ############################################################################ | 100%
+pyasn1-0.4.8         | 58 KB     | ############################################################################ | 100%
+libprotobuf-3.11.4   | 1.8 MB    | ############################################################################ | 100%
+_tflow_select-2.2.0  | 3 KB      | ############################################################################ | 100%
+blinker-1.4          | 22 KB     | ############################################################################ | 100%
+grpcio-1.27.2        | 1.2 MB    | ############################################################################ | 100%
+absl-py-0.9.0        | 168 KB    | ############################################################################ | 100%
+markdown-3.1.1       | 132 KB    | ############################################################################ | 100%
+requests-2.23.0      | 93 KB     | ############################################################################ | 100%
+werkzeug-0.14.1      | 394 KB    | ############################################################################ | 100%
+tensorflow-estimator | 251 KB    | ############################################################################ | 100%
+google-pasta-0.2.0   | 44 KB     | ############################################################################ | 100%
+oauthlib-3.1.0       | 88 KB     | ############################################################################ | 100%
+opt_einsum-3.1.0     | 54 KB     | ############################################################################ | 100%
+google-auth-oauthlib | 20 KB     | ############################################################################ | 100%
+keras-preprocessing- | 36 KB     | ############################################################################ | 100%
+idna-2.9             | 49 KB     | ############################################################################ | 100%
+wrapt-1.12.1         | 49 KB     | ############################################################################ | 100%
+protobuf-3.11.4      | 542 KB    | ############################################################################ | 100%
+tensorboard-2.1.0    | 3.3 MB    | ############################################################################ | 100%
+keras-applications-1 | 33 KB     | ############################################################################ | 100%
+tensorflow-2.1.0     | 4 KB      | ############################################################################ | 100%
+tensorflow-base-2.1. | 35.4 MB   | ############################################################################ | 100%
+pyasn1-modules-0.2.7 | 63 KB     | ############################################################################ | 100%
+astor-0.8.0          | 47 KB     | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(installingrasa) C:\workspace\rasa>pip install rasa
+Collecting rasa
+  Using cached rasa-1.9.6-py3-none-any.whl (497 kB)
+Requirement already satisfied: absl-py<0.10,>=0.9 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from rasa) (0.9.0)
+Collecting SQLAlchemy<1.4.0,>=1.3.3
+  Downloading SQLAlchemy-1.3.16-cp37-cp37m-win_amd64.whl (1.2 MB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1.2 MB 726 kB/s
+Collecting coloredlogs<11.0,>=10.0
+  Using cached coloredlogs-10.0-py2.py3-none-any.whl (47 kB)
+Collecting kafka-python<2.0,>=1.4
+  Using cached kafka_python-1.4.7-py2.py3-none-any.whl (266 kB)
+Collecting networkx<2.5.0,>=2.4.0
+  Using cached networkx-2.4-py3-none-any.whl (1.6 MB)
+Collecting pydot<1.5,>=1.4
+  Using cached pydot-1.4.1-py2.py3-none-any.whl (19 kB)
+Collecting pytz<2020.0,>=2019.1
+  Using cached pytz-2019.3-py2.py3-none-any.whl (509 kB)
+Collecting questionary<1.6.0,>=1.5.1
+  Using cached questionary-1.5.2-py3-none-any.whl (26 kB)
+Collecting python-telegram-bot<12.0,>=11.1
+  Using cached python_telegram_bot-11.1.0-py2.py3-none-any.whl (326 kB)
+Requirement already satisfied: scipy<2.0.0,>=1.4.1 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from rasa) (1.4.1)
+Collecting sanic-cors<0.11.0,>=0.10.0b1
+  Using cached Sanic_Cors-0.10.0.post3-py2.py3-none-any.whl (17 kB)
+Collecting webexteamssdk<1.2.0,>=1.1.1
+  Using cached webexteamssdk-1.1.1.tar.gz (48 kB)
+Collecting sklearn-crfsuite<0.4,>=0.3
+  Using cached sklearn_crfsuite-0.3.6-py2.py3-none-any.whl (12 kB)
+Collecting jsonpickle<1.4,>=1.3
+  Using cached jsonpickle-1.3-py2.py3-none-any.whl (32 kB)
+Collecting scikit-learn<0.23,>=0.22
+  Downloading scikit_learn-0.22.2.post1-cp37-cp37m-win_amd64.whl (6.5 MB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 6.5 MB 2.2 MB/s
+Collecting matplotlib<3.2,>=3.1
+  Downloading matplotlib-3.1.3-cp37-cp37m-win_amd64.whl (9.1 MB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 9.1 MB 6.8 MB/s
+Collecting tensorflow_hub<0.8,>=0.7
+  Using cached tensorflow_hub-0.7.0-py2.py3-none-any.whl (89 kB)
+Collecting colorhash<1.1.0,>=1.0.2
+  Using cached colorhash-1.0.2-py2.py3-none-any.whl (6.0 kB)
+Collecting mattermostwrapper<2.3,>=2.2
+  Using cached mattermostwrapper-2.2.tar.gz (2.5 kB)
+Requirement already satisfied: numpy<2.0,>=1.16 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from rasa) (1.18.1)
+Collecting sanic-jwt<1.4.0,>=1.3.2
+  Using cached sanic-jwt-1.3.2.tar.gz (18 kB)
+Collecting terminaltables<3.2.0,>=3.1.0
+  Using cached terminaltables-3.1.0.tar.gz (12 kB)
+Collecting python-socketio<4.5,>=4.4
+  Using cached python_socketio-4.4.0-py2.py3-none-any.whl (50 kB)
+Requirement already satisfied: tensorflow-estimator==2.1.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from rasa) (2.1.0)
+Collecting boto3<2.0,>=1.12
+  Using cached boto3-1.12.41-py2.py3-none-any.whl (128 kB)
+Collecting redis<4.0,>=3.4
+  Using cached redis-3.4.1-py2.py3-none-any.whl (71 kB)
+Collecting python-engineio<3.12,>=3.11
+  Using cached python_engineio-3.11.2-py2.py3-none-any.whl (49 kB)
+Collecting pykwalify<1.8.0,>=1.7.0
+  Using cached pykwalify-1.7.0-py2.py3-none-any.whl (40 kB)
+Collecting multidict<5.0,>=4.6
+  Downloading multidict-4.7.5-cp37-cp37m-win_amd64.whl (48 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 48 kB 882 kB/s
+Collecting apscheduler<3.7,>=3.6
+  Using cached APScheduler-3.6.3-py2.py3-none-any.whl (58 kB)
+Collecting aiohttp<3.7,>=3.6
+  Downloading aiohttp-3.6.2-cp37-cp37m-win_amd64.whl (649 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 649 kB 3.2 MB/s
+Collecting pika<1.2.0,>=1.1.0
+  Using cached pika-1.1.0-py2.py3-none-any.whl (148 kB)
+Collecting fbmessenger<6.1.0,>=6.0.0
+  Using cached fbmessenger-6.0.0-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: requests<3.0,>=2.23 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from rasa) (2.23.0)
+Collecting sanic<20.0.0,>=19.12.2
+  Using cached sanic-19.12.2-py3-none-any.whl (72 kB)
+Collecting tqdm<4.32.0,>=4.31.0
+  Using cached tqdm-4.31.1-py2.py3-none-any.whl (48 kB)
+Collecting attrs<19.4,>=19.3
+  Using cached attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+Collecting ujson<2.0,>=1.35
+  Using cached ujson-1.35.tar.gz (192 kB)
+Collecting twilio<6.27,>=6.26
+  Using cached twilio-6.26.3-py2.py3-none-any.whl (979 kB)
+Collecting oauth2client==4.1.3
+  Using cached oauth2client-4.1.3-py2.py3-none-any.whl (98 kB)
+Collecting rasa-sdk<2.0.0,>=1.9.0
+  Using cached rasa_sdk-1.9.0-py3-none-any.whl (37 kB)
+Collecting rocketchat_API<0.7.0,>=0.6.31
+  Using cached rocketchat_API-0.6.36-py3-none-any.whl (9.5 kB)
+Collecting slackclient<3.0.0,>=2.0.0
+  Using cached slackclient-2.5.0-py2.py3-none-any.whl (54 kB)
+Collecting tensorflow-addons>=0.7.1
+  Downloading tensorflow_addons-0.9.1-cp37-cp37m-win_amd64.whl (867 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 867 kB 3.3 MB/s
+Collecting gevent<1.5.0,>=1.4.0
+  Downloading gevent-1.4.0-cp37-cp37m-win_amd64.whl (3.0 MB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 3.0 MB 6.4 MB/s
+Collecting async_generator<1.11,>=1.10
+  Using cached async_generator-1.10-py3-none-any.whl (18 kB)
+Collecting pymongo[srv,tls]<3.9.0,>=3.8.0
+  Downloading pymongo-3.8.0-cp37-cp37m-win_amd64.whl (317 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 317 kB 6.4 MB/s
+Requirement already satisfied: setuptools>=41.0.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from rasa) (46.1.3.post20200330)
+Collecting cloudpickle<1.3.0,>=1.2.0
+  Using cached cloudpickle-1.2.2-py2.py3-none-any.whl (25 kB)
+Collecting tensorflow-probability<0.8,>=0.7
+  Using cached tensorflow_probability-0.7.0-py2.py3-none-any.whl (981 kB)
+Collecting packaging<19.1,>=19.0
+  Using cached packaging-19.0-py2.py3-none-any.whl (26 kB)
+Requirement already satisfied: tensorflow<2.2,>=2.1 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from rasa) (2.1.0)
+Collecting python-dateutil<2.9,>=2.8
+  Using cached python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting colorclass<2.3,>=2.2
+  Using cached colorclass-2.2.0.tar.gz (17 kB)
+Collecting jsonschema<3.3,>=3.2
+  Using cached jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+Collecting ruamel.yaml<0.16,>=0.15
+  Downloading ruamel.yaml-0.15.100-cp37-cp37m-win_amd64.whl (225 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 225 kB 6.4 MB/s
+Collecting psycopg2-binary<2.9.0,>=2.8.2
+  Downloading psycopg2_binary-2.8.5-cp37-cp37m-win_amd64.whl (1.1 MB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1.1 MB 6.8 MB/s
+Requirement already satisfied: PyJWT<1.8,>=1.7 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from rasa) (1.7.1)
+Collecting prompt-toolkit<3.0,>=2.0
+  Using cached prompt_toolkit-2.0.10-py3-none-any.whl (340 kB)
+Requirement already satisfied: six in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from absl-py<0.10,>=0.9->rasa) (1.14.0)
+Collecting humanfriendly>=4.7
+  Downloading humanfriendly-8.1-py2.py3-none-any.whl (83 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 83 kB 1.0 MB/s
+Collecting colorama; sys_platform == "win32"
+  Downloading colorama-0.4.3-py2.py3-none-any.whl (15 kB)
+Collecting decorator>=4.3.0
+  Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting pyparsing>=2.1.4
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 67 kB 2.8 MB/s
+Requirement already satisfied: certifi in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from python-telegram-bot<12.0,>=11.1->rasa) (2020.4.5.1)
+Requirement already satisfied: cryptography in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from python-telegram-bot<12.0,>=11.1->rasa) (2.8)
+Collecting future>=0.16.0
+  Downloading future-0.18.2.tar.gz (829 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 829 kB 6.4 MB/s
+Collecting sanic-plugins-framework>=0.9.0
+  Downloading Sanic_Plugins_Framework-0.9.2-py2.py3-none-any.whl (23 kB)
+Collecting requests-toolbelt
+  Downloading requests_toolbelt-0.9.1-py2.py3-none-any.whl (54 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 54 kB 1.2 MB/s
+Collecting tabulate
+  Downloading tabulate-0.8.7-py3-none-any.whl (24 kB)
+Collecting python-crfsuite>=0.8.3
+  Downloading python_crfsuite-0.9.7-cp37-cp37m-win_amd64.whl (154 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 154 kB ...
+Collecting joblib>=0.11
+  Downloading joblib-0.14.1-py2.py3-none-any.whl (294 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 294 kB ...
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.2.0-cp37-none-win_amd64.whl (57 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 57 kB 2.5 MB/s
+Collecting cycler>=0.10
+  Downloading cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Requirement already satisfied: protobuf>=3.4.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow_hub<0.8,>=0.7->rasa) (3.11.4)
+Collecting botocore<1.16.0,>=1.15.41
+  Downloading botocore-1.15.41-py2.py3-none-any.whl (6.1 MB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 6.1 MB 3.2 MB/s
+Collecting s3transfer<0.4.0,>=0.3.0
+  Downloading s3transfer-0.3.3-py2.py3-none-any.whl (69 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 69 kB 3.8 MB/s
+Collecting jmespath<1.0.0,>=0.7.1
+  Downloading jmespath-0.9.5-py2.py3-none-any.whl (24 kB)
+Collecting PyYAML>=3.11
+  Downloading PyYAML-5.3.1-cp37-cp37m-win_amd64.whl (216 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 216 kB ...
+Collecting docopt>=0.6.2
+  Downloading docopt-0.6.2.tar.gz (25 kB)
+Collecting tzlocal>=1.2
+  Downloading tzlocal-2.0.0-py2.py3-none-any.whl (15 kB)
+Collecting yarl<2.0,>=1.0
+  Downloading yarl-1.4.2-cp37-cp37m-win_amd64.whl (125 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 125 kB 2.2 MB/s
+Collecting async-timeout<4.0,>=3.0
+  Downloading async_timeout-3.0.1-py3-none-any.whl (8.2 kB)
+Requirement already satisfied: chardet<4.0,>=2.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from aiohttp<3.7,>=3.6->rasa) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from requests<3.0,>=2.23->rasa) (1.25.8)
+Requirement already satisfied: idna<3,>=2.5 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from requests<3.0,>=2.23->rasa) (2.9)
+Collecting httptools>=0.0.10
+  Downloading httptools-0.1.1-cp37-cp37m-win_amd64.whl (95 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 95 kB 6.4 MB/s
+Collecting websockets<9.0,>=7.0
+  Downloading websockets-8.1-cp37-cp37m-win_amd64.whl (66 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 66 kB 2.1 MB/s
+Collecting httpx==0.9.3
+  Downloading httpx-0.9.3-py2.py3-none-any.whl (64 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 64 kB 770 kB/s
+Collecting aiofiles>=0.3.0
+  Downloading aiofiles-0.5.0-py3-none-any.whl (11 kB)
+Requirement already satisfied: pysocks; python_version >= "3.0" in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from twilio<6.27,>=6.26->rasa) (1.7.1)
+Requirement already satisfied: pyasn1>=0.1.7 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from oauth2client==4.1.3->rasa) (0.4.8)
+Collecting httplib2>=0.9.1
+  Downloading httplib2-0.17.2-py3-none-any.whl (95 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 95 kB 1.5 MB/s
+Requirement already satisfied: pyasn1-modules>=0.0.5 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from oauth2client==4.1.3->rasa) (0.2.7)
+Requirement already satisfied: rsa>=3.1.4 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from oauth2client==4.1.3->rasa) (4.0)
+Collecting typeguard>=2.7
+  Downloading typeguard-2.7.1-py3-none-any.whl (15 kB)
+Collecting greenlet>=0.4.14; platform_python_implementation == "CPython"
+  Downloading greenlet-0.4.15-cp37-cp37m-win_amd64.whl (16 kB)
+Requirement already satisfied: cffi>=1.11.5; sys_platform == "win32" and platform_python_implementation == "CPython" in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from gevent<1.5.0,>=1.4.0->rasa) (1.14.0)
+Collecting dnspython<2.0.0,>=1.13.0; extra == "srv"
+  Downloading dnspython-1.16.0-py2.py3-none-any.whl (188 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 188 kB ...
+Requirement already satisfied: keras-applications>=1.0.8 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (1.0.8)
+Requirement already satisfied: google-pasta>=0.1.6 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (0.2.0)
+Requirement already satisfied: wheel>=0.26; python_version >= "3" in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (0.34.2)
+Requirement already satisfied: grpcio>=1.8.6 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (1.27.2)
+Requirement already satisfied: wrapt>=1.11.1 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (1.12.1)
+Requirement already satisfied: gast==0.2.2 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (0.2.2)
+Requirement already satisfied: keras-preprocessing>=1.1.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (1.1.0)
+Requirement already satisfied: opt-einsum>=2.3.2 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (3.1.0)
+Requirement already satisfied: tensorboard<2.2.0,>=2.1.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (2.1.0)
+Requirement already satisfied: astor>=0.6.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (0.8.0)
+Requirement already satisfied: termcolor>=1.1.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorflow<2.2,>=2.1->rasa) (1.1.0)
+Collecting importlib-metadata; python_version < "3.8"
+  Downloading importlib_metadata-1.6.0-py2.py3-none-any.whl (30 kB)
+Collecting pyrsistent>=0.14.0
+  Downloading pyrsistent-0.16.0.tar.gz (108 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 108 kB 3.3 MB/s
+Collecting wcwidth
+  Downloading wcwidth-0.1.9-py2.py3-none-any.whl (19 kB)
+Requirement already satisfied: pyreadline; sys_platform == "win32" in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from humanfriendly>=4.7->coloredlogs<11.0,>=10.0->rasa) (2.1)
+Collecting docutils<0.16,>=0.10
+  Downloading docutils-0.15.2-py3-none-any.whl (547 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 547 kB 3.2 MB/s
+Collecting hstspreload
+  Downloading hstspreload-2020.4.14-py3-none-any.whl (868 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 868 kB 6.4 MB/s
+Collecting rfc3986<2,>=1.3
+  Downloading rfc3986-1.4.0-py2.py3-none-any.whl (31 kB)
+Collecting h11==0.8.*
+  Downloading h11-0.8.1-py2.py3-none-any.whl (55 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 55 kB 726 kB/s
+Collecting h2==3.*
+  Downloading h2-3.2.0-py2.py3-none-any.whl (65 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 65 kB 1.2 MB/s
+Collecting sniffio==1.*
+  Downloading sniffio-1.1.0-py3-none-any.whl (4.5 kB)
+Requirement already satisfied: pycparser in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from cffi>=1.11.5; sys_platform == "win32" and platform_python_implementation == "CPython"->gevent<1.5.0,>=1.4.0->rasa) (2.20)
+Requirement already satisfied: h5py in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from keras-applications>=1.0.8->tensorflow<2.2,>=2.1->rasa) (2.10.0)
+Requirement already satisfied: markdown>=2.6.8 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow<2.2,>=2.1->rasa) (3.1.1)
+Requirement already satisfied: google-auth-oauthlib<0.5,>=0.4.1 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow<2.2,>=2.1->rasa) (0.4.1)
+Requirement already satisfied: google-auth<2,>=1.6.3 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow<2.2,>=2.1->rasa) (1.13.1)
+Requirement already satisfied: werkzeug>=0.11.15 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow<2.2,>=2.1->rasa) (0.14.1)
+Collecting zipp>=0.5
+  Downloading zipp-3.1.0-py3-none-any.whl (4.9 kB)
+Collecting hpack<4,>=3.0
+  Downloading hpack-3.0.0-py2.py3-none-any.whl (38 kB)
+Collecting hyperframe<6,>=5.2.0
+  Downloading hyperframe-5.2.0-py2.py3-none-any.whl (12 kB)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.2.0,>=2.1.0->tensorflow<2.2,>=2.1->rasa) (1.3.0)
+Requirement already satisfied: cachetools<5.0,>=2.0.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from google-auth<2,>=1.6.3->tensorboard<2.2.0,>=2.1.0->tensorflow<2.2,>=2.1->rasa) (3.1.1)
+Requirement already satisfied: oauthlib>=3.0.0 in c:\users\orchestrate\anaconda3\envs\installingrasa\lib\site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.2.0,>=2.1.0->tensorflow<2.2,>=2.1->rasa) (3.1.0)
+Building wheels for collected packages: webexteamssdk, mattermostwrapper, sanic-jwt, terminaltables, ujson, colorclass, future, docopt, pyrsistent
+  Building wheel for webexteamssdk (setup.py) ... done
+  Created wheel for webexteamssdk: filename=webexteamssdk-1.1.1-py3-none-any.whl size=77169 sha256=6d19cfdf06bb1666caedc333af9c8df146bcb7e5bdf4a4380059e38f093bfa19
+  Stored in directory: c:\users\orchestrate\appdata\local\pip\cache\wheels\d1\c4\5b\6f2ebc3f0371c940b8c914f168157de444163d62d9b656347b
+  Building wheel for mattermostwrapper (setup.py) ... done
+  Created wheel for mattermostwrapper: filename=mattermostwrapper-2.2-py3-none-any.whl size=2469 sha256=f7f230a100c4662cdf26bbc3632e330f6867d613a8ea128c477825bf824d0357
+  Stored in directory: c:\users\orchestrate\appdata\local\pip\cache\wheels\b9\70\77\6c3f3c9a6f096f765d0767b21e73598d66c3b79cb7b09b62ad
+  Building wheel for sanic-jwt (setup.py) ... done
+  Created wheel for sanic-jwt: filename=sanic_jwt-1.3.2-py3-none-any.whl size=21063 sha256=895c07b29b9adbf86559923103c4955cbc2577076d79cbaf794cdf38981d9da7
+  Stored in directory: c:\users\orchestrate\appdata\local\pip\cache\wheels\be\43\61\837b669bae9500a1e8c02dc09269fd6d6ab1735a9373704c93
+  Building wheel for terminaltables (setup.py) ... done
+  Created wheel for terminaltables: filename=terminaltables-3.1.0-py3-none-any.whl size=15357 sha256=73a2563b2a661749a1b52ba3db0cae5c105875a38c0f985c853bcc8186842778
+  Stored in directory: c:\users\orchestrate\appdata\local\pip\cache\wheels\ba\ad\c8\2d98360791161cd3db6daf6b5e730f34021fc9367d5879f497
+  Building wheel for ujson (setup.py) ... done
+  Created wheel for ujson: filename=ujson-1.35-cp37-cp37m-win_amd64.whl size=21622 sha256=84a53961dd80206e202a7b7d3a8fc95d07e0582b741b18aefd3e37cb4376c491
+  Stored in directory: c:\users\orchestrate\appdata\local\pip\cache\wheels\55\e8\7e\e36b183f3e654b73fc04eb1b656ad3c2773077dd531cb35c4d
+  Building wheel for colorclass (setup.py) ... done
+  Created wheel for colorclass: filename=colorclass-2.2.0-py3-none-any.whl size=19400 sha256=a8eefe6c9dcfa566bbfa23d6126839bce64939999f850247e997d62c25ffe0b1
+  Stored in directory: c:\users\orchestrate\appdata\local\pip\cache\wheels\fe\96\67\750617a6039bb687b993830c5852beba03d777e2d5b0b06938
+  Building wheel for future (setup.py) ... done
+  Created wheel for future: filename=future-0.18.2-py3-none-any.whl size=491062 sha256=67b6a623e371763f08af838b032a35cc37acfbdbf11a9bea2a26051aa1a9a74c
+  Stored in directory: c:\users\orchestrate\appdata\local\pip\cache\wheels\56\b0\fe\4410d17b32f1f0c3cf54cdfb2bc04d7b4b8f4ae377e2229ba0
+  Building wheel for docopt (setup.py) ... done
+  Created wheel for docopt: filename=docopt-0.6.2-py2.py3-none-any.whl size=13709 sha256=c837fd981735f3a10b2399b3ff88f13f3043ce4e1ad40bcbe6b25c2b0e79f383
+  Stored in directory: c:\users\orchestrate\appdata\local\pip\cache\wheels\72\b0\3f\1d95f96ff986c7dfffe46ce2be4062f38ebd04b506c77c81b9
+  Building wheel for pyrsistent (setup.py) ... done
+  Created wheel for pyrsistent: filename=pyrsistent-0.16.0-cp37-cp37m-win_amd64.whl size=71156 sha256=29d15f09c7931807205520e2a4c20650dfcad165b2dafa0bf8ee41f7df11262f
+  Stored in directory: c:\users\orchestrate\appdata\local\pip\cache\wheels\22\52\11\f0920f95c23ed7d2d0b05f2b7b2f4509e87a20cfe8ea43d987
+Successfully built webexteamssdk mattermostwrapper sanic-jwt terminaltables ujson colorclass future docopt pyrsistent
+Installing collected packages: SQLAlchemy, humanfriendly, colorama, coloredlogs, kafka-python, decorator, networkx, pyparsing, pydot, pytz, wcwidth, prompt-toolkit, questionary, future, python-telegram-bot, httptools, multidict, websockets, hstspreload, rfc3986, h11, hpack, hyperframe, h2, sniffio, httpx, aiofiles, sanic, sanic-plugins-framework, sanic-cors, requests-toolbelt, webexteamssdk, tabulate, python-crfsuite, tqdm, sklearn-crfsuite, jsonpickle, joblib, scikit-learn, kiwisolver, python-dateutil, cycler, matplotlib, tensorflow-hub, colorhash, mattermostwrapper, sanic-jwt, terminaltables, python-engineio, python-socketio, jmespath, docutils, botocore, s3transfer, boto3, redis, PyYAML, docopt, pykwalify, tzlocal, apscheduler, yarl, attrs, async-timeout, aiohttp, pika, fbmessenger, ujson, twilio, httplib2, oauth2client, rasa-sdk, rocketchat-API, slackclient, typeguard, tensorflow-addons, greenlet, gevent, async-generator, dnspython, pymongo, cloudpickle, tensorflow-probability, packaging, colorclass, zipp, importlib-metadata, pyrsistent, jsonschema, ruamel.yaml, psycopg2-binary, rasa
+  Attempting uninstall: ujson
+    Found existing installation: ujson 2.0.3
+    Uninstalling ujson-2.0.3:
+      Successfully uninstalled ujson-2.0.3
+Successfully installed PyYAML-5.3.1 SQLAlchemy-1.3.16 aiofiles-0.5.0 aiohttp-3.6.2 apscheduler-3.6.3 async-generator-1.10 async-timeout-3.0.1 attrs-19.3.0 boto3-1.12.41 botocore-1.15.41 cloudpickle-1.2.2 colorama-0.4.3 colorclass-2.2.0 coloredlogs-10.0 colorhash-1.0.2 cycler-0.10.0 decorator-4.4.2 dnspython-1.16.0 docopt-0.6.2 docutils-0.15.2 fbmessenger-6.0.0 future-0.18.2 gevent-1.4.0 greenlet-0.4.15 h11-0.8.1 h2-3.2.0 hpack-3.0.0 hstspreload-2020.4.14 httplib2-0.17.2 httptools-0.1.1 httpx-0.9.3 humanfriendly-8.1 hyperframe-5.2.0 importlib-metadata-1.6.0 jmespath-0.9.5 joblib-0.14.1 jsonpickle-1.3 jsonschema-3.2.0 kafka-python-1.4.7 kiwisolver-1.2.0 matplotlib-3.1.3 mattermostwrapper-2.2 multidict-4.7.5 networkx-2.4 oauth2client-4.1.3 packaging-19.0 pika-1.1.0 prompt-toolkit-2.0.10 psycopg2-binary-2.8.5 pydot-1.4.1 pykwalify-1.7.0 pymongo-3.8.0 pyparsing-2.4.7 pyrsistent-0.16.0 python-crfsuite-0.9.7 python-dateutil-2.8.1 python-engineio-3.11.2 python-socketio-4.4.0 python-telegram-bot-11.1.0 pytz-2019.3 questionary-1.5.2 rasa-1.9.6 rasa-sdk-1.9.0 redis-3.4.1 requests-toolbelt-0.9.1 rfc3986-1.4.0 rocketchat-API-0.6.36 ruamel.yaml-0.15.100 s3transfer-0.3.3 sanic-19.12.2 sanic-cors-0.10.0.post3 sanic-jwt-1.3.2 sanic-plugins-framework-0.9.2 scikit-learn-0.22.2.post1 sklearn-crfsuite-0.3.6 slackclient-2.5.0 sniffio-1.1.0 tabulate-0.8.7 tensorflow-addons-0.9.1 tensorflow-hub-0.7.0 tensorflow-probability-0.7.0 terminaltables-3.1.0 tqdm-4.31.1 twilio-6.26.3 typeguard-2.7.1 tzlocal-2.0.0 ujson-1.35 wcwidth-0.1.9 webexteamssdk-1.1.1 websockets-8.1 yarl-1.4.2 zipp-3.1.0
+
+(installingrasa) C:\workspace\rasa>rasa init
+Welcome to Rasa! ??
+
+To get started quickly, an initial project will be created.
+If you need some help, check out the documentation at https://rasa.com/docs/rasa.
+Now let's start! ????
+
+? Please enter a path where the project will be created [default: current directory] .
+Created project directory at 'C:\workspace\rasa'.
+Finished creating project structure.
+? Do you want to train an initial model? ????  Yes
+Training an initial model...
+Training Core model...
+Processed Story Blocks: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 5/5 [00:00<00:00, 555.42it/s, # trackers=1]
+Processed Story Blocks: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 5/5 [00:00<00:00, 417.21it/s, # trackers=5]
+Processed Story Blocks: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 5/5 [00:00<00:00, 192.28it/s, # trackers=20]
+Processed Story Blocks: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 5/5 [00:00<00:00, 116.26it/s, # trackers=24]
+Processed trackers: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 5/5 [00:00<00:00, 185.15it/s, # actions=16]
+Processed actions: 16it [00:00, 1776.45it/s, # examples=16]
+Processed trackers: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 231/231 [00:02<00:00, 90.12it/s, # actions=126]
+Epochs: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 100/100 [00:21<00:00,  7.16it/s, t_loss=0.090, loss=0.026, acc=1.000]
+2020-04-18 06:21:09 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-18 06:21:09 INFO     rasa.core.agent  - Persisted model to 'C:\Users\ORCHES~1\AppData\Local\Temp\tmpt7lxdckw\core'
+Core model training completed.
+Training NLU model...
+2020-04-18 06:21:09 INFO     rasa.nlu.training_data.training_data  - Training data stats:
+        - intent examples: 43 (7 distinct intents)
+        - Found intents: 'mood_great', 'bot_challenge', 'affirm', 'deny', 'goodbye', 'greet', 'mood_unhappy'
+        - Number of response examples: 0 (0 distinct response)
+        - entity examples: 0 (0 distinct entities)
+        - found entities:
+
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Starting to train component WhitespaceTokenizer
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Finished training component.
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Finished training component.
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Starting to train component LexicalSyntacticFeaturizer
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Finished training component.
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Finished training component.
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Finished training component.
+2020-04-18 06:21:09 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs: 100%|¦¦¦¦| 100/100 [00:24<00:00,  4.89it/s, t_loss=1.576, i_loss=0.213, e_loss=-0.000, i_acc=1.000, e_f1=0.000]
+2020-04-18 06:21:57 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-18 06:21:57 INFO     rasa.nlu.model  - Finished training component.
+2020-04-18 06:21:57 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+2020-04-18 06:21:57 INFO     rasa.nlu.model  - Finished training component.
+2020-04-18 06:21:57 INFO     rasa.nlu.model  - Starting to train component ResponseSelector
+2020-04-18 06:21:57 INFO     rasa.nlu.selectors.response_selector  - Retrieval intent parameter was left to its default value. This response selector will be trained on training examples combining all retrieval intents.
+2020-04-18 06:21:57 INFO     rasa.nlu.model  - Finished training component.
+2020-04-18 06:21:57 INFO     rasa.nlu.model  - Successfully saved model into 'C:\Users\ORCHES~1\AppData\Local\Temp\tmpt7lxdckw\nlu'
+NLU model training completed.
+Your Rasa model is trained and saved at 'C:\workspace\rasa\models\20200418-062018.tar.gz'.
+? Do you want to speak to the trained assistant on the command line? ??  Yes
+2020-04-18 06:22:25 INFO     root  - Connecting to channel 'cmdline' which was specified by the '--connector' argument. Any other channels will be ignored. To connect to all given channels, omit the '--connector' argument.
+2020-04-18 06:22:25 INFO     root  - Starting Rasa server on http://localhost:5005
+Bot loaded. Type a message and press enter (use '/stop' to exit):
+Your input ->  hi
+Hey! How are you?
+Your input ->  I am good
+Great, carry on!
+Your input ->  how are you
+I am a bot, powered by Rasa.
+Your input ->
+
+
